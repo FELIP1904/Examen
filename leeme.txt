@@ -1,0 +1,16 @@
+Estructura del Menú:
+
+    El menú se muestra en un bucle while que se repite hasta que el usuario seleccione la opción de salir y confirme su decisión.
+    El usuario selecciona una opción ingresando un número del 1 al 4.
+
+Opciones del Menú:
+
+    Opción 1: Solicita dos palabras, las concatena y muestra el resultado.
+    Opción 2: Divide la frase ingresada en palabras utilizando split con un patrón que ignora espacios extra y cuenta las palabras.
+    Opción 3: Itera sobre los caracteres de la frase para contar las apariciones de la letra ingresada.
+    Opción 4: Solicita confirmación para salir del programa.
+
+Validaciones:
+
+    Se asegura de limpiar el buffer con scanner.nextLine() después de leer enteros para evitar problemas con las entradas.
+    Maneja entradas no válidas en el rango del menú.
