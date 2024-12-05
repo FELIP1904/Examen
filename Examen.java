@@ -27,6 +27,13 @@ public class Examen {
             switch (opcion) {
                 case 1 -> {
                   
+                	// Opción 1: Concatenar dos palabras
+                	System.out.print("Ingrese la primera palabra: ");
+                	String palabra1 = scanner.nextLine();
+                	System.out.print("Ingrese la segunda palabra: ");
+                	String palabra2 = scanner.nextLine();
+                	
+
                 }
 
                 case 2 -> {
@@ -52,7 +59,7 @@ public class Examen {
                 default -> System.out.println("Opción no válida. Por favor, seleccione una opción del 1 al 4.");
             }
             
-        }
+        } 
 
         
     }
