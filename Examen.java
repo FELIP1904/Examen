@@ -32,7 +32,7 @@ public class Examen {
                 	String palabra1 = scanner.nextLine();
                 	System.out.print("Ingrese la segunda palabra: ");
                 	String palabra2 = scanner.nextLine();
-                	
+                	System.out.println("Resultado de la concatenación: " + palabra1 + palabra2);
 
                 }
 
