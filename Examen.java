@@ -34,6 +34,16 @@ public class Examen {
                 }
 
                 case 3 -> {
+                    System.out.print("Ingrese una frase: ");
+                	String fraseParaContar = scanner.nextLine();
+                	System.out.print("Ingrese la letra a buscar: ");
+                	char letra = scanner.nextLine().charAt(0);
+                	int contador = 0;
+                	for (char c : fraseParaContar.toCharArray()) {
+                    	if (c == letra) {
+                        	contador++;
+                    	}
+                	}
                   
                 }
 
