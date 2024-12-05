@@ -33,7 +33,7 @@ public class Examen {
 	System.out.print("Ingrese una frase: ");
                 	String frase = scanner.nextLine();
                 	String[] palabras = frase.trim().split("\\s+");
-                	
+                	System.out.println("La frase contiene " + palabras.length + " palabras.");
                 }
 
                 case 3 -> {
