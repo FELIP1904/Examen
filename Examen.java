@@ -44,6 +44,7 @@ public class Examen {
                         	contador++;
                     	}
                 	}
+                	System.out.println("La letra '" + letra + "' aparece " + contador + " veces en la frase.");
                   
                 }
 
